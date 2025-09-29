@@ -1,4 +1,5 @@
 ﻿#region task1 
+Console.WriteLine("Task 1");
 int[] arr = { 5, 12, 7, 3, 19, 12, 4 };
 
 
@@ -25,9 +26,9 @@ else
 #endregion
 #region task2
 
-Console.WriteLine();
+Console.WriteLine("\r\nTask 2");
 
-    int[,] matrix = 
+int[,] matrix = 
     {
             {5, 12, 7},
             {3, 19, 12},
@@ -64,7 +65,7 @@ for (int i = 0; i < rows; i++)
 #endregion
 #region task 4
 
-Console.WriteLine();
+Console.WriteLine("\r\nTask 4");
 int[,] mat =
         {
             { 5,  2,  3 },
@@ -95,10 +96,10 @@ Console.WriteLine($"\nSum of the elements of the main diagona {sum}");
 #endregion
 #region task3
 
-Console.WriteLine();
+Console.WriteLine("\r\nTask 3");
 
 
-        int[] arrstart = { 5, 12, 7, 3, 19 };
+int[] arrstart = { 5, 12, 7, 3, 19 };
         Console.WriteLine("\r\nInitial array: " + string.Join(", ", arrstart));
 
         Console.Write("\r\nEnter the index of the item to delete: ");
